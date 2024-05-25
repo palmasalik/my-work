@@ -1,0 +1,162 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-background: #151437;
+    --primary-text-color: #ffffff;
+  }
+
+  .navbar-toggler {
+    background: #7177f1;
+  }
+}
+
+@media (max-width: 1399px) {
+  .about_text {
+    left: 0;
+  }
+  .about_content {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .work_btn {
+    text-align: start;
+  }
+  .slider_left-content h1 {
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .header_link,
+  .header_btn {
+    margin: 0;
+  }
+  .acc_img {
+    padding-top: 30px;
+    padding-left: 0;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .accordion__body {
+    padding: 20px;
+  }
+
+  .work_item {
+    width: 50%;
+  }
+
+  .work_item:first-child .work_btn {
+    border-radius: 8px 0px 0px 0px;
+  }
+
+  .work_item:last-child .work_btn {
+    border-radius: 0px 0px 8px 0px;
+  }
+
+  .work_item:nth-of-type(2) .work_btn {
+    border-radius: 0px 8px 0px 0px;
+  }
+
+  .work_item:nth-of-type(5) .work_btn {
+    border-radius: 0px 0px 0px 8px;
+  }
+
+  .work_list {
+    padding: 0 !important;
+  }
+
+  .tab-content {
+    margin-top: 30px;
+    padding: 0;
+  }
+  .footer {
+    margin: 50px 0;
+  }
+  .footer_list {
+    padding: 0 !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .accordion__body {
+    padding-top: 0px;
+  }
+  .works_title {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .about_img {
+    width: 300px !important;
+    display: flex;
+    margin: 0 auto;
+  }
+  .about_text {
+    left: 10%;
+    padding: 20px;
+  }
+  .work_list {
+    padding: 0 15px !important;
+  }
+  .work_link {
+    margin: 0;
+  }
+  .works_title,
+  .works_text {
+    margin-bottom: 10px;
+  }
+  .work_btn {
+    height: 60px;
+    padding: 0 20px;
+  }
+  .work_img {
+    margin-bottom: 10px;
+  }
+  .slider_left-icon img {
+    width: 60px;
+  }
+  .slider_left-content a {
+    width: 250px;
+  }
+  .about {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 450px) {
+  .slider_left-content h1 {
+    line-height: 30px;
+  }
+
+  .carousel-indicators {
+    margin-top: 0;
+  }
+
+  .slider_images {
+    height: 300px;
+  }
+  .slider_left-icon img {
+    width: 50px;
+  }
+  .slider_left-content a {
+    width: 200px;
+    line-height: 40px;
+  }
+  .about_text {
+    left: 5%;
+  }
+  .about_content-link {
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .slider_left-icon img {
+    width: 40px;
+  }
+  .work_link {
+    padding: 10px 40px;
+  }
+}
